@@ -93,6 +93,19 @@
       </main>
     </div>
     
+    <script type="text/javascript">
+
+    	if(navigator.browserLanguage) {  
+    		var idioma = navigator.browserLanguage;    
+    	}
+    	else if(navigator.language) {
+    		var idioma = navigator.language;
+    	}
+    	if(idioma == 'en-US'){
+    		window.location.href = "https://gustavogf.com/en";
+    	}
+
+    </script>
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
   </body>
 </html>
